@@ -1,0 +1,19 @@
+{
+  "name": "app-procontabil",
+  "version": "1.0.0",
+  "description": "Site Robson",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciusqvs13/procontabil.git"
+  },
+  "author": "Vinicius Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viniciusqvs13/procontabil/issues"
+  },
+  "homepage": "https://github.com/viniciusqvs13/procontabil#readme"
+}
