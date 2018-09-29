@@ -1,0 +1,73 @@
+@import '_variaveis.scss';
+
+
+#lista-menu-top li {
+    display: inline;
+    list-style: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#lista-menu-bot li {
+    display: inline;
+    list-style: none;
+    font-size: 12px; 
+    margin-top: 15px;
+}
+
+ul li a{
+    color: $cor-logo;
+}
+
+ul li a:hover{
+    text-decoration: none; 
+    color: #f0ad4e;
+}
+
+ul li.area-cliente {
+    background-color: #f0ad4e;
+    padding: 10px !important;
+    border-radius: 5px;
+    padding-top: 40px !important;
+}
+ul li.area-cliente :hover {
+    color: #ffffff;
+}
+
+//Butão busca topo
+.btn-outline-busca {
+    color: #1b1e82;
+    background-color: transparent;
+    background-image: none;
+    border-color: #1b1e82;
+}
+  
+.btn-outline-busca:hover {
+color: #fff;
+background-color: #1b1e82;
+border-color:  #1b1e82;
+}
+
+.btn-outline-busca:focus, .btn-outline-busca.focus {
+box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+}
+
+.btn-outline-busca.disabled, .btn-outline-busca:disabled {
+color: #1b1e82;
+background-color: transparent;
+}
+
+#logo-desc {
+    color: #f0ad4e;
+    font-size: 14px;
+}
+
+header {
+    margin-top: 137px;
+}
+div > .gtco-container{
+    height: 400px;
+}
+div > .display-tc {
+    margin: 110px;
+}
